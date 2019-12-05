@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import News_App
+//@testable import News_App
 
 class News_AppTests: XCTestCase {
 
