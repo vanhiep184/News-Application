@@ -35,11 +35,14 @@ class NewsViewController: UIViewController {
     }
 
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 }
 extension URLSession {
 

@@ -14,6 +14,7 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			<string>BoringSSL is a fork of OpenSSL. As such, large parts of it fall under OpenSSL
 licensing. Files that are completely new have a Google copyright and an ISC
@@ -181,6 +182,9 @@ https://github.com/mit-plv/fiat-crypto/blob/master/AUTHORS).
 =======
 			<string>Copyright (c) 2014 Alamofire Software Foundation (http://alamofire.org/)
 >>>>>>> Stashed changes
+=======
+			<string>Copyright (c) 2014 Alamofire Software Foundation (http://alamofire.org/)
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -189,6 +193,7 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -196,12 +201,17 @@ copies or substantial portions of the Software.
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
 >>>>>>> Stashed changes
+=======
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
@@ -1351,6 +1361,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 			<key>Title</key>
 			<string>FirebaseCoreDiagnostics</string>
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
@@ -1358,12 +1370,16 @@ THE SOFTWARE.
 			<string>MIT</string>
 			<key>Title</key>
 			<string>Alamofire</string>
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
 		<dict>
 			<key>FooterText</key>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			<string>
                                  Apache License
@@ -3559,6 +3575,8 @@ redistribute it freely, subject to the following restrictions:
 			<key>Title</key>
 			<string>nanopb</string>
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			<string>MIT License
 
 Copyright (c) 2017 Nikita Ermolenko
@@ -3585,7 +3603,10 @@ SOFTWARE.
 			<string>MIT</string>
 			<key>Title</key>
 			<string>CodableAlamofire</string>
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

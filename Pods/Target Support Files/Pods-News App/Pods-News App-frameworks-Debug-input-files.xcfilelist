@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-News App/Pods-News App-frameworks.sh
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 ${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework
 ${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework
@@ -12,3 +13,7 @@ ${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework
 >>>>>>> Stashed changes
+=======
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c

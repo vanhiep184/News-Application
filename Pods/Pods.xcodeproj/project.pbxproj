@@ -6,6 +6,7 @@
 	objectVersion = 51;
 	objects = {
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /* Begin PBXAggregateTarget section */
 		072CEA044D2EF26F03496D5996BBF59F /* Firebase */ = {
@@ -18539,6 +18540,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 66671DE726DDDDD2FF010CBB8DCB087B /* Pods-News App.debug.xcconfig */;
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 /* Begin PBXBuildFile section */
 		03A6AD0C38A3CC620402964B8ED15A5D /* Pods-News AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26EDA75138333DABAA4506247E0D2F /* Pods-News AppTests-dummy.m */; };
 		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E209FCA7D8AD1131C7DDEFCB6718FD53 /* ParameterEncoding.swift */; };
@@ -19229,6 +19232,7 @@
 		1EA4EF66739B3CD87FD523B60947C69A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB3078023ACE70651B4009BAF12EA31F /* Pods-News App.debug.xcconfig */;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -19336,6 +19340,11 @@
 			baseConfigurationReference = 9368EAB82CD16FAD7E07DB94F2844CBE /* CodableAlamofire.xcconfig */;
 >>>>>>> Stashed changes
 			buildSettings = {
+=======
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -19345,6 +19354,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				GCC_PREFIX_HEADER = "Target Support Files/gRPC-C++/gRPC-C++-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/gRPC-C++/gRPC-C++-Info.plist";
@@ -19394,6 +19404,37 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA114DE6F5636EED0C6BCD30C90D744D /* GoogleDataTransport.xcconfig */;
 			buildSettings = {
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-News App/Pods-News App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-News App/Pods-News App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		228A90A1674284D5A6A4E1DDA4DF2165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80A0AF8F0101C027C61EA7F46443A28 /* Pods-News App-News AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -19403,15 +19444,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 				INFOPLIST_FILE = "Target Support Files/GoogleDataTransport/GoogleDataTransport-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-News App-News AppUITests/Pods-News App-News AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+<<<<<<< HEAD
 				MODULEMAP_FILE = "Target Support Files/GoogleDataTransport/GoogleDataTransport.modulemap";
 				PRODUCT_MODULE_NAME = GoogleDataTransport;
 				PRODUCT_NAME = GoogleDataTransport;
@@ -19419,12 +19467,23 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+=======
+				MODULEMAP_FILE = "Target Support Files/Pods-News App-News AppUITests/Pods-News App-News AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		C4AA5D3E09C03FC94CAF6722C78687C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 995983C828C58365F53FD2F0CE3AAB1D /* gRPC-C++.xcconfig */;
@@ -19448,10 +19507,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+=======
+		3A41B47098E3BCA9654706E94404EE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9368EAB82CD16FAD7E07DB94F2844CBE /* CodableAlamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CodableAlamofire/CodableAlamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CodableAlamofire/CodableAlamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+<<<<<<< HEAD
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -19464,6 +19542,10 @@
 			baseConfigurationReference = 29F30CC537AEC0612CF52C87B22F45F5 /* FirebaseInstanceID.xcconfig */;
 			buildSettings = {
 =======
+=======
+					"@loader_path/Frameworks",
+				);
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				MODULEMAP_FILE = "Target Support Files/CodableAlamofire/CodableAlamofire.modulemap";
 				PRODUCT_MODULE_NAME = CodableAlamofire;
 				PRODUCT_NAME = CodableAlamofire;
@@ -19544,7 +19626,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -19554,6 +19639,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				INFOPLIST_FILE = "Target Support Files/FirebaseInstanceID/FirebaseInstanceID-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -19563,12 +19649,18 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 >>>>>>> Stashed changes
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-News AppTests/Pods-News AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				MODULEMAP_FILE = "Target Support Files/FirebaseInstanceID/FirebaseInstanceID.modulemap";
 				PRODUCT_MODULE_NAME = FirebaseInstanceID;
@@ -19620,6 +19712,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 60A10961B78E25ABB662820E69769EA0 /* leveldb-library.xcconfig */;
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				MODULEMAP_FILE = "Target Support Files/Pods-News AppTests/Pods-News AppTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -19676,7 +19770,10 @@
 		75BBB760DFD877E344322B54D29DFE64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DFF6B174076F8A069843EAD1BA24DF0 /* Alamofire.xcconfig */;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -19687,6 +19784,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				GCC_PREFIX_HEADER = "Target Support Files/leveldb-library/leveldb-library-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/leveldb-library/leveldb-library-Info.plist";
@@ -19694,6 +19792,10 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 >>>>>>> Stashed changes
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -19701,6 +19803,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				MODULEMAP_FILE = "Target Support Files/leveldb-library/leveldb-library.modulemap";
 				PRODUCT_MODULE_NAME = leveldb;
@@ -19710,6 +19813,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -19717,19 +19822,25 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		EEA6DB0772C1A956D680499BD5771BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4E6D1A09EBD7414F604DBAC71B10B88 /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -19800,7 +19911,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -19810,6 +19924,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-Info.plist";
@@ -19820,11 +19935,17 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 >>>>>>> Stashed changes
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-News App-News AppUITests/Pods-News App-News AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
 				PRODUCT_MODULE_NAME = GTMSessionFetcher;
@@ -19844,6 +19965,8 @@
 			baseConfigurationReference = BA114DE6F5636EED0C6BCD30C90D744D /* GoogleDataTransport.xcconfig */;
 			buildSettings = {
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-News App-News AppUITests/Pods-News App-News AppUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -19866,7 +19989,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -19876,6 +20002,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				INFOPLIST_FILE = "Target Support Files/GoogleDataTransport/GoogleDataTransport-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -19885,12 +20012,18 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 >>>>>>> Stashed changes
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-News App/Pods-News App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				MODULEMAP_FILE = "Target Support Files/GoogleDataTransport/GoogleDataTransport.modulemap";
 				PRODUCT_MODULE_NAME = GoogleDataTransport;
@@ -19900,6 +20033,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				MODULEMAP_FILE = "Target Support Files/Pods-News App/Pods-News App.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -19908,7 +20043,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -19916,6 +20054,7 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		FA648C8A681507D30E40E43A50C66514 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -19925,6 +20064,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9368EAB82CD16FAD7E07DB94F2844CBE /* CodableAlamofire.xcconfig */;
 >>>>>>> Stashed changes
+=======
+		C53B48585D52DFF1F03114092A70ABBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9368EAB82CD16FAD7E07DB94F2844CBE /* CodableAlamofire.xcconfig */;
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -19935,12 +20079,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				INFOPLIST_FILE = "Target Support Files/FirebaseCore/FirebaseCore-Info.plist";
 =======
 				GCC_PREFIX_HEADER = "Target Support Files/CodableAlamofire/CodableAlamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CodableAlamofire/CodableAlamofire-Info.plist";
 >>>>>>> Stashed changes
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/CodableAlamofire/CodableAlamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CodableAlamofire/CodableAlamofire-Info.plist";
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -19948,6 +20097,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/FirebaseCore/FirebaseCore.modulemap";
@@ -19958,6 +20108,8 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				MODULEMAP_FILE = "Target Support Files/CodableAlamofire/CodableAlamofire.modulemap";
 				PRODUCT_MODULE_NAME = CodableAlamofire;
 				PRODUCT_NAME = CodableAlamofire;
@@ -19965,13 +20117,17 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		FCAA2F7890C178AB2329F33F3C84F5D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -19981,6 +20137,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DFF6B174076F8A069843EAD1BA24DF0 /* Alamofire.xcconfig */;
 >>>>>>> Stashed changes
+=======
+		F94FD07C591B17B7E61A1528AB9BCB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFF6B174076F8A069843EAD1BA24DF0 /* Alamofire.xcconfig */;
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -19991,6 +20152,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
@@ -19998,6 +20160,10 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 >>>>>>> Stashed changes
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -20005,6 +20171,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
 				PRODUCT_MODULE_NAME = nanopb;
@@ -20019,6 +20186,8 @@
 			};
 			name = Debug;
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -20032,11 +20201,15 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		0356D83D81D16BABB4D291506BC6A678 /* Build configuration list for PBXNativeTarget "FirebaseFirestore" */ = {
 			isa = XCConfigurationList;
@@ -20098,12 +20271,17 @@
 				A4AAAFCFC3F280935395E4AAB5B948C7 /* Debug */,
 				C4AA5D3E09C03FC94CAF6722C78687C8 /* Release */,
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 		37915711F0B6063181A98F1AF7DDA26D /* Build configuration list for PBXNativeTarget "Pods-News App-News AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				228A90A1674284D5A6A4E1DDA4DF2165 /* Debug */,
 				9A05ABC95B952174D95BE6E48600B07A /* Release */,
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -20117,6 +20295,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		59DF882541E1AEAB34F8B0437CC029E0 /* Build configuration list for PBXNativeTarget "leveldb-library" */ = {
 			isa = XCConfigurationList;
@@ -20223,16 +20402,22 @@
 				66DED9D56B9E9E26D91A3C8C38B9F228 /* Debug */,
 				E14811B16B32418715F6F0B6AB39CFDD /* Release */,
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 		A20D734DB9326CF339A2BE84024039E8 /* Build configuration list for PBXNativeTarget "Pods-News App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EA4EF66739B3CD87FD523B60947C69A /* Debug */,
 				A84AA0DDAA4A4E0A74922E249541E635 /* Release */,
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		D36EBFA54206E43A410DE6DAFF9D6096 /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */ = {
 			isa = XCConfigurationList;
@@ -20240,16 +20425,22 @@
 				EEA6DB0772C1A956D680499BD5771BE5 /* Debug */,
 				524DD65DBBBC61DDFED739A175254687 /* Release */,
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75BBB760DFD877E344322B54D29DFE64 /* Debug */,
 				F94FD07C591B17B7E61A1528AB9BCB3B /* Release */,
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		D6EFE316532212CB5DD1C9124C70AA59 /* Build configuration list for PBXNativeTarget "nanopb" */ = {
 			isa = XCConfigurationList;
@@ -20257,16 +20448,22 @@
 				FCAA2F7890C178AB2329F33F3C84F5D3 /* Debug */,
 				694EA7CDBBB06168DC8F5AE8FE7F003C /* Release */,
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 		F7754B68624B38103B665EC140A12955 /* Build configuration list for PBXNativeTarget "Pods-News AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70D4D9759F01797EE7936801190B393F /* Debug */,
 				5F7C84D673A5D2C520C00DACFD862E10 /* Release */,
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		FFA50B8F0537D0EE275C8551C9980F81 /* Build configuration list for PBXAggregateTarget "FirebaseAnalytics" */ = {
 			isa = XCConfigurationList;
@@ -20274,12 +20471,17 @@
 				D3BBEC97128395DEF66CF22D67C4CCDB /* Debug */,
 				B8088A6F28902260247FCCE5E073A321 /* Release */,
 =======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 		FDA574BACE77A8F57829C5AA3388FDD9 /* Build configuration list for PBXNativeTarget "CodableAlamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C53B48585D52DFF1F03114092A70ABBF /* Debug */,
 				3A41B47098E3BCA9654706E94404EE69 /* Release */,
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
