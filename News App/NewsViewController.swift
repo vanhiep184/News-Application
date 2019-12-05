@@ -35,11 +35,6 @@ class NewsViewController: UIViewController {
     }
 
 
-
-
-
-
-
 }
 extension URLSession {
 
