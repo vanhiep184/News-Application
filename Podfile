@@ -5,6 +5,18 @@ target 'News App' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+  # Pods for News App
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+end
+
+=======
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
 	pod 'CodableAlamofire'
 
   # Pods for News App
@@ -19,3 +31,7 @@ target 'News App' do
   end
 
 end
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+=======
+>>>>>>> 6e6780a69739bc874ffba323441d1661d7e4941c
